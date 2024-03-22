@@ -2,19 +2,19 @@ package main.homeWork1;
 
 public class main {
     public static void main(String[] args) {
-            int radius = 10;
-            double pi = 3.14;
-            double perimeter = 2 * pi * radius;
-            System.out.println(perimeter);
+        int radius = 10;
+        double pi = 3.14;
+        double perimeter = 2 * pi * radius;
+        System.out.println(perimeter);
 
-            int radius1 = 10;
-            double pi1 = 3.14;
-            System.out.println("Периметр окружности:" + (2 * pi1 * radius1));
+        int radius1 = 10;
+        double pi1 = 3.14;
+        System.out.println("Периметр окружности:" + (2 * pi1 * radius1));
 
-            int a = 1;
-            int b = 10;
-            int summa = (b * (a+b)/2);
-            System.out.println(summa);
+        int a = 1;
+        int b = 10;
+        int summa = (b * (a + b) / 2);
+        System.out.println(summa);
 
         double a1 = 10.5;
         int b1 = 45;
@@ -84,16 +84,16 @@ public class main {
         int aro4 = aro % 10;
         int summa_aro = aro1 + aro2 + aro3 + aro4;
 
-        Switch(summa_aro <=20){
-            case true:
-                System.out.println("true");
-                break;
-            case false:
+        int res;
+
+        if (summa_aro <= 20) {
+            System.out.println("true");
+            res = 0;
+        } else {
                 System.out.println("false");
-                break;
+                res = 1;
 
         }
-}
-
-    private static void Switch(boolean boom) {
     }
+
+}
