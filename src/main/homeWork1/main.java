@@ -75,5 +75,25 @@ public class main {
         } else {
             System.out.println("false");
         }
+        int aro = 1389;
+        int bar = aro / 10;
+        int car = bar / 10;
+        int aro1 = car / 10;
+        int aro2 = car % 10;
+        int aro3 = bar % 10;
+        int aro4 = aro % 10;
+        int summa_aro = aro1 + aro2 + aro3 + aro4;
+
+        Switch(summa_aro <=20){
+            case true:
+                System.out.println("true");
+                break;
+            case false:
+                System.out.println("false");
+                break;
+
         }
 }
+
+    private static void Switch(boolean boom) {
+    }
